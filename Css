@@ -1,0 +1,83 @@
+/\* Custom CSS for Inksoft Store \*/
+
+/\* Hide Price on Product Detail Page \*/
+
+.product-detail-panel .product-price {
+
+display: none;
+
+}
+
+/\* Hide items with price 0.00 \*/
+
+.product-panel\[data-price="0.00"] {
+
+display: none;
+
+}
+
+/\* Square widgets for parent categories in rows of 3 \*/
+
+.category-widget {
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+}
+
+.category-widget .category-card {
+
+width: calc(33.33% - 10px); /\* Three in a row with some margin \*/
+
+margin: 5px;
+
+box-sizing: border-box;
+
+}
+
+.category-card img {
+
+width: 100%;
+
+height: auto;
+
+}
+
+/\* Hide checkout options in the designer \*/
+
+.designer-checkout-options {
+
+display: none;
+
+}
+
+/\* Hide header and footer \*/
+
+.header, .footer {
+
+display: none;
+
+}
+
+/\* Hide scrollbars \*/
+
+body {
+
+overflow: hidden;
+
+}
+
+/\* Full-width and full-height for iframes \*/
+
+.inksoft-iframe {
+
+width: 100vw;
+
+height: 100vh;
+
+border: none;
+
+}
